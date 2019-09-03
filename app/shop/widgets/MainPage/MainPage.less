@@ -1,0 +1,63 @@
+@import '../../../core/style/global-variables';
+
+.MainPage {
+  margin-bottom: 40px;
+  img {
+    margin: 10px 0;
+    width: 100%;
+    height: auto;
+  }
+  a {
+    text-decoration: underline;
+    color: #333;
+
+    &:hover {
+      color: #666;
+    }
+  }
+
+  &__userCase {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  &__userInfo {
+    width: 60%;
+    button{
+      margin-left: 10px;
+    }
+  }
+
+  &__addUser {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  &__dropDown {
+    width: 40%;
+  }
+  &__button-add-user{
+    width: 40%;
+  }
+
+  &__bold-text{
+    font-weight: bold;
+  }
+
+  &__button-case{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 3rem;
+    button{
+      margin-left: 10px;
+    }
+  }
+
+}

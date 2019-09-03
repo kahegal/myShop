@@ -1,0 +1,17 @@
+{
+    "name": "shop",
+    "description": "shop",
+    "type": "project",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "license": "BSD-3-Clause",
+    "require": {
+        "kozhindev/yii-steroids": "1.12.7",
+        "phpunit/phpunit": "5.7.19",
+        "yiisoft/yii2-redis": "~2.0.0",
+        "ext-curl": "*"
+    },
+    "config": {
+        "process-timeout": 1800
+    }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "shop",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "yii-steroids": "1.12.7"
+  },
+  "devDependencies": {}
+}
